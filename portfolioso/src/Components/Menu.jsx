@@ -11,6 +11,7 @@ function Menu() {
       <h3> Soraya Gherras </h3>
     </div>
 
+<div className='navigation-right'>
     <Link to='/'> Portfolio </Link>
     <Link to='/about'> A propos </Link>
     <Link to='/contact'> Contactez-moi ! </Link>
@@ -19,9 +20,8 @@ function Menu() {
     <BsLinkedin/>
     <BsBehance/>
     <BsGithub/>
-
     </div>
-
+</div>
     </NavigationStyled>
   )
 }
@@ -30,6 +30,15 @@ const NavigationStyled = styled.div `
   width: 100%;
   padding: 1em 0;
   background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navigation-right {
+  display: flex;
+  }
+
+
 `
 
 export default Menu
