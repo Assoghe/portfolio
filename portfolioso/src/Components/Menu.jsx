@@ -1,13 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
+import {BsLinkedin, BsBehance, BsGithub} from 'react-icons/bs';
 
-function Navigation() {
+function Menu() {
   return (
     <NavigationStyled>
+    
+    <div className='nom'>
+      <h3> Soraya Gherras </h3>
+    </div>
+
     <Link to='/'> Portfolio </Link>
-      <Link to='/about'> A propos </Link>
-      <Link to='/contact'> Contactez-moi ! </Link>
+    <Link to='/about'> A propos </Link>
+    <Link to='/contact'> Contactez-moi ! </Link>
+
+    <div className='socialnetworks'>
+    <BsLinkedin/>
+    <BsBehance/>
+    <BsGithub/>
+
+    </div>
+
     </NavigationStyled>
   )
 }
@@ -18,4 +32,4 @@ const NavigationStyled = styled.div `
   background-color: red;
 `
 
-export default Navigation
+export default Menu
