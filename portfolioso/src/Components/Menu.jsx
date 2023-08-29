@@ -27,17 +27,30 @@ function Menu() {
 }
 
 const NavigationStyled = styled.div `
-  width: 100%;
+  width: auto;
   padding: 1em 0;
-  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #D9D9D9;
+  background: #1A1C23;
+  padding: 0 10%;
+
+  h3 {
+font-family: 'Philosopher', sans-serif; 
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.96px;
+  }
+
+
+
 
   .navigation-right {
   display: flex;
   }
-
 
 `
 

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #141517;
+  /*background: linear-gradient(133deg, #141517 0%, #1A1D23 100%);*/
+  background: linear-gradient(133deg, #141517 100%, #1A1D23 100%);
+}
+
+
+@font-face {
+  font-family: 'Philosopher'; /* Donnez un nom à votre police */
+  src: url('/portfolioso/src/assets/font/Philosopher/Philosopher-Bold.ttf') format('truetype'),format('truetype'), url('/portfolioso/src/assets/font/Philosopher/Philosopher-Regular.ttf') format('truetype');
+}
+
