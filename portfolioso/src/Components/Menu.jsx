@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
 import {BsLinkedin, BsBehance, BsGithub} from 'react-icons/bs';
+import { index } from '..';
 
 function Menu() {
   return (
@@ -32,19 +33,11 @@ const NavigationStyled = styled.div `
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #D9D9D9;
-  background: #1A1C23;
   padding: 0 10%;
   position: sticky;
-
-  h3 {
-font-family: 'Philosopher', sans-serif; 
-font-size: 1.5em;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.96px;
-  }
+  background-color: ${index.backgroundDark.backgroundColorSecondary};
+  color: ${index.textColor.textStyle},
+  display: flex;
 
 
 
@@ -56,19 +49,20 @@ letter-spacing: 0.96px;
   .navigation-right a, svg {
     margin-right: 1.5em;
     text-decoration: none;
-    color: #D9D9D9;
+    color: ${index.textColor.textStyle};
   }
 
   .navigation-right a {
     font-family: Mulish, sans-serif;
-font-size: 1.2em;
-font-style: normal;
-font-weight: 400;
-line-height: 2.25rem; /* 150% */
+    font-size: ${index.size.hfour};
+    font-style: normal;
+    font-weight: ${index.weight.four};
+    line-height: 2.25rem;
   }
 
+
   .navigation-right svg {
-    font-size: 1.2em;
+    font-size: ${index.size.hfour};
     align-item: center;
   }
 

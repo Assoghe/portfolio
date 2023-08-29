@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background:linear-gradient(133deg, #141517 100%, #1A1D23 100%); 
+    color: #D9D9D9;
+}
+
+
+/*Font*/
+@font-face {
+    font-family: 'Philosopher';
+    src: url('/portfolioso/src/assets/font/Philosopher/Philosopher-Bold.ttf') format('truetype')
+    url('/portfolioso/src/assets/font/Philosopher/Philosopher-Regular.ttf') format('truetype');
+  }
+  
+  
+  @font-face {
+    font-family: 'Mulish';
+    src: url('/portfolioso/src/assets/font/Mulish/static/Mulish-SemiBold.ttf') format('truetype'), 
+    url('/portfolioso/src/assets/font/Mulish/static/Mulish-Regular.ttf') format('truetype'),
+    url('/portfolioso/src/assets/font/Mulish/static/Mulish-Medium.ttf') format('truetype'), 
+    url('/portfolioso/src/assets/font/Mulish/static/Mulish-Light.ttf') format('truetype'),
+    url('/portfolioso/src/assets/font/Mulish/static/Mulish-ExtraLight.ttf') format('truetype'), 
+    url('/portfolioso/src/assets/font/Mulish/static/Mulish-ExtraBold.ttf') format('truetype'),   
+  }
+
+  h3{
+    font-family:'Philosopher', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    color: #D9D9D9;
+  }
