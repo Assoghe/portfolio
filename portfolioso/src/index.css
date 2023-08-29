@@ -7,7 +7,21 @@ body {
 
 
 @font-face {
-  font-family: 'Philosopher'; /* Donnez un nom à votre police */
-  src: url('/portfolioso/src/assets/font/Philosopher/Philosopher-Bold.ttf') format('truetype'),format('truetype'), url('/portfolioso/src/assets/font/Philosopher/Philosopher-Regular.ttf') format('truetype');
+  font-family: 'Philosopher';
+  src: url('/portfolioso/src/assets/font/Philosopher/Philosopher-Bold.ttf') format('truetype')
+  url('/portfolioso/src/assets/font/Philosopher/Philosopher-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('/portfolioso/src/assets/font/Mulish/static/Mulish-SemiBold.ttf') format('truetype'), 
+  url('/portfolioso/src/assets/font/Mulish/static/Mulish-Regular.ttf') format('truetype'),
+  url('/portfolioso/src/assets/font/Mulish/static/Mulish-Medium.ttf') format('truetype'), 
+  url('/portfolioso/src/assets/font/Mulish/static/Mulish-Light.ttf') format('truetype'),
+  url('/portfolioso/src/assets/font/Mulish/static/Mulish-ExtraLight.ttf') format('truetype'), 
+  url('/portfolioso/src/assets/font/Mulish/static/Mulish-ExtraBold.ttf') format('truetype'), 
+  
+  
 }
 
