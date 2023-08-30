@@ -23,6 +23,16 @@ body {
     url('/portfolioso/src/assets/font/Mulish/static/Mulish-ExtraBold.ttf') format('truetype'),   
   }
 
+  h1 {
+    font-family:'Philosopher', sans-serif;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    color: #D9D9D9;
+  }
+
   h3{
     font-family:'Philosopher', sans-serif;
     font-size: 1.5em;
@@ -31,4 +41,13 @@ body {
     line-height: normal;
     letter-spacing: 0.96px;
     color: #D9D9D9;
+  }
+
+  p {
+    font-family:'Mulish', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.96px;
   }
